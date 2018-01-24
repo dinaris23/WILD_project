@@ -1,0 +1,93 @@
+
+body {
+    font-family: $theme-font;
+    font-size: 18px;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    color: $color-text;
+}
+
+.title {
+    font-size: 100px;
+    text-transform: uppercase;
+
+}
+.sc_title {
+    color: $color-text;
+    text-align: left;
+    line-height: 0.9em;
+    position: relative;
+    &:before {
+        content: '';
+        background: url('../img/img_divider.png') no-repeat;
+        position: absolute;
+        top: -40px;
+        width: 100px;
+        height: 20px;
+
+    }
+}
+.menu {
+    display: flex;
+    margin: 0;
+    &_item {
+        list-style: none;
+        margin-right: 60px;
+        @include transform;
+        &:last-child {
+            margin-right: 35px;
+        }
+        a {
+            text-decoration: none;
+            color: $color-menu;
+            text-transform: uppercase;
+            
+        }
+    }
+}
+.btn {
+    border-radius: $btn-radius;
+    outline: none;
+    cursor: pointer;
+    &__tr {
+        background: $fill-btn;
+        border: $border-btn;
+        color: $color-white;
+    }
+}
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding:0 10px;
+}
+.author {
+    display: flex;
+    align-items: center;
+    &_img {
+        border-radius: $circle-img;
+        margin-right: 20px;
+    }
+
+}
+.flex {
+    display: flex;
+}
+.link-arrow {
+    text-align: right;
+    text-decoration: none;
+    color: $color-link;
+    font-size: 25px;
+    display: block;
+    i {
+        padding-left: 10px;
+    }
+}
+.circle-img {
+    width: 140px;
+    height: 140px;
+  
+}
+.shadow {
+    filter: drop-shadow(0 30px 5px rgba(140, 153, 191, 0.2)); 
+}

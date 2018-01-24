@@ -1,0 +1,20 @@
+// Base import
+
+@import "normalize";
+
+// Arguments
+
+@import "variables";
+@import "mixins";
+@import "common";
+
+// Styles import
+
+@import "layout/header";
+@import "layout/impressive";
+@import "layout/about";
+@import "layout/gallery";
+@import "layout/journal";
+@import "layout/featured";
+@import "layout/contact";
+@import "layout/footer";

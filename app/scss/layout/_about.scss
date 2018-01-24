@@ -1,0 +1,26 @@
+.about {
+    margin-top: 100px;
+    &_container {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
+    }
+    &_content {
+        flex: 1;
+    }
+    &_img {
+        flex: 1;
+        position: relative;
+    }
+    &_s-square {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    &_b-square {
+        position: absolute;
+        top: 60%;
+        left: 20%;
+    }
+}

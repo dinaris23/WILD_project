@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background: url('../img/header_bg.jpg') no-repeat;
+    background-size: cover;
+    clip-path: $tr-bottom;
+    &_title {
+        color: $color-white;
+        text-align: center;
+        margin: 0.15em 0;
+    }
+    &_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1500px;
+        background: $color-white;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+    &_content {
+        text-align: center;
+        padding-bottom: 30%;
+        padding-top: 15%;
+
+    }
+    &_subtitle {
+        text-transform: uppercase;
+        color: $color-white;
+        font-family: $special-font;
+        letter-spacing: 8px;
+    }
+    &_btn {
+        padding: 20px 70px;
+        @include transform;
+    }
+    &_logo {
+        padding: 35px;
+    }
+
+}

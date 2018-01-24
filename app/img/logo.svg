@@ -1,0 +1,18 @@
+<svg width="97" height="21" viewBox="0 0 97 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(4154 787)">
+<g id="logo">
+<g id="retangule">
+<use xlink:href="#path0_fill" transform="translate(-4076 -771)" fill="#CFC9C6"/>
+</g>
+<g id="WILD">
+<use xlink:href="#path1_fill" transform="translate(-4153.36 -786.01)" fill="#C1B2B1"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 0 0L 19 0L 19 5L 0 5L 0 0Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 23.61 20.01L 29.34 0L 22.53 0L 19.98 12.24L 16.95 0L 12.39 0L 9.36 12.24L 6.78 0L 0 0L 5.73 20.01L 12.09 20.01L 14.67 8.67L 17.25 20.01L 23.61 20.01ZM 36.6601 20.01L 36.6601 0L 30.6001 0L 30.6001 20.01L 36.6601 20.01ZM 53.5499 20.01L 53.5499 14.73L 45.9599 14.73L 45.9599 0L 39.8999 0L 39.8999 20.01L 53.5499 20.01ZM 64.95 20.01C 71.22 20.01 75.9 16.38 75.9 9.99C 75.9 3.6 71.22 0 64.92 0L 55.98 0L 55.98 20.01L 64.95 20.01ZM 64.92 14.73L 62.04 14.73L 62.04 5.28003L 64.95 5.28003C 68.19 5.28003 69.75 7.29003 69.75 9.99003C 69.75 12.51 67.95 14.73 64.92 14.73Z"/>
+</defs>
+</svg>
