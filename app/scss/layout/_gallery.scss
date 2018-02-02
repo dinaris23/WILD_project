@@ -1,0 +1,39 @@
+.gallery {
+    &_content {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 60px;
+        width: 125%;
+    
+    }
+    &_item {
+        @include transform;
+        margin: 0;
+        margin-right: 50px;
+        padding: 10px;
+        background: #ffffff;
+        box-shadow: $shadow;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    &_img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+    &_title {
+        font-size: 20px;
+        color: $color-text;
+        padding-bottom: 70px;
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    &_date {
+        display: block;
+        font-size: 20px;
+        color: $color-text_light;
+        padding-top: 10px;
+    }
+
+}

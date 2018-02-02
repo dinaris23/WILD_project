@@ -1,0 +1,21 @@
+.footer {
+    background-color: $color-footer;
+    padding: 30px 0;
+    &_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &_copyright {
+        font-size: 20px;
+        color: $color-link_light;
+    }
+    &_icon {
+        color: $color-link_light;
+        font-size: 25px;
+        margin-right: 50px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

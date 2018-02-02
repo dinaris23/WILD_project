@@ -16,8 +16,10 @@
         align-items: center;
         max-width: 1500px;
         background: $color-white;
-        margin-left: 50px;
-        margin-right: 50px;
+        margin: 0 auto;
+        position: absolute;
+        left: 50px;
+        right: 50px;
 
     }
     &_content {

@@ -8,6 +8,9 @@
     &_content {
         flex: 1;
     }
+    &_text {
+        font-size: 30px;
+    }
     &_img {
         flex: 1;
         position: relative;
@@ -17,6 +20,10 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
+    }
+    &_subtitle {
+        font-size: 40px;
+        color: $color-text;
     }
     &_b-square {
         position: absolute;

@@ -5,6 +5,10 @@
     transition-property: transform;
     transition-timing-function: ease-out;
     &:hover {
-        transform: translateY(-8px);
+        transform: scale(1.1);
         }
+}
+@mixin border {
+    border: 1px solid $color-gray;
+    border-radius: 10px;
 }

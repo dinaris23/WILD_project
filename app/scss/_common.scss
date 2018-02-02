@@ -6,12 +6,32 @@ body {
     max-width: 100%;
     overflow-x: hidden;
     color: $color-text;
+    margin: 0 auto;
 }
-
+input, textarea {
+    outline: none;
+    resize: none;
+}
 .title {
     font-size: 100px;
     text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
 
+}
+a {
+        text-decoration: none;
+        color: $color-link;
+
+}
+a:hover {
+    color: darken($color-link, 30%);
+}
+.title-blue {
+    color: $color-title;
+    font-family: $theme-font;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 .sc_title {
     color: $color-text;
@@ -27,6 +47,9 @@ body {
         height: 20px;
 
     }
+}
+section {
+    margin-bottom: 150px;
 }
 .menu {
     display: flex;
@@ -55,6 +78,36 @@ body {
         border: $border-btn;
         color: $color-white;
     }
+    &__blue {
+        border: $border-btn-blue;
+        background: transparent;
+        color: $color-link;
+        padding: 15px 40px;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: 25px;
+    }
+    &__form {
+        width: 100%;
+        background: $color-link;
+        color: $color-white;
+        border: none;
+        padding: 25px 0;
+    }
+    &:hover {
+        @include transform;
+    }
+}
+.btn-play {
+    border-radius: 50%;
+    color: $color-white;
+    border: $border-btn;
+    background: $fill-btn;
+    padding: 20px;
+    width: 70px;
+    height: 70px;
+
+    
 }
 .container {
     max-width: 1500px;
@@ -79,10 +132,11 @@ body {
     color: $color-link;
     font-size: 25px;
     display: block;
-    i {
-        padding-left: 10px;
+    svg {
+    padding-left: 10px;
     }
 }
+
 .circle-img {
     width: 140px;
     height: 140px;
@@ -90,4 +144,15 @@ body {
 }
 .shadow {
     filter: drop-shadow(0 30px 5px rgba(140, 153, 191, 0.2)); 
+}
+.circle-diagram {
+    position: relative;
+    &::before {
+        content: '3.146';
+        position: absolute;
+
+    }
+}
+ul li {
+    list-style: none;
 }
